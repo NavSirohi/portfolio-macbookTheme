@@ -1,0 +1,253 @@
+/**
+ * @file: profile.config.ts
+ * @author: Nikhil Sirohi
+ * @summary: Full-stack engineer focused on AI systems, scalable web apps, and developer tooling.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  programming: [
+    "C++",          // 90%
+    "JavaScript",   // 95%
+    "TypeScript",   // 90%
+    "SQL",          // 85%
+  ],
+
+  frontend: [
+    "React.js",      // 95%
+    "Next.js",       // 95%
+    "Tailwind CSS",  // 92%
+    "Shadcn UI",     // 85%
+    "HTML/CSS",      // 95%
+  ],
+
+  backend: [
+    "Node.js",       // 90%
+    "Express.js",    // 88%
+    "REST APIs",     // 90%
+    "Socket.io",     // 82%
+    "Authentication",// 85%
+  ],
+
+  databases: [
+    "PostgreSQL",    // 88%
+    "MongoDB",       // 85%
+    "Prisma",        // 80%
+    "Mongoose",      // 82%
+    "Redis",         // 75%
+    "Kafka",         // 70%
+  ],
+
+  aiSystems: [
+    "Generative AI",        // 88%
+    "Agentic AI Workflows", // 85%
+    "RAG Pipelines",        // 82%
+    "E2B Sandbox",          // 78%
+    "Inngest",              // 80%
+  ],
+
+  devOps: [
+    "Docker",       // 85%
+    "Kubernetes",   // 75%
+    "AWS",          // 82%
+    "Jenkins",      // 72%
+    "Linux",        // 80%
+    "Nginx",        // 70%
+    "CI/CD",        // 78%
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "Postman",
+    "Clerk"
+  ]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE & LEADERSHIP
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+  /**
+   * @period Aug 2025 - Present
+   */
+  public async Null_VIT_Bhopal(): Promise<Impact> {
+
+    const role = "Lead, Design and Content Team";
+
+    const hackathon = await event.organize({
+      type: "Generative AI Hackathon",
+      learners: "200+"
+    });
+
+    const partnerships = [
+      "Industry Collaborations",
+      "Mentorship Programs",
+      "Community Engagement"
+    ];
+
+    return { role, hackathon, partnerships };
+  }
+
+  /**
+   * @period Nov 2024 - Mar 2025
+   */
+  public async Android_Club_VITB(): Promise<Impact> {
+
+    const role = "Core Member, PR and Outreach Team";
+
+    const collaborations = [
+      "Perplexity AI",
+      "Chaicode"
+    ];
+
+    const responsibilities = [
+      "Outreach",
+      "Partnerships",
+      "Technical Communications"
+    ];
+
+    return { role, collaborations, responsibilities };
+  }
+}
+
+// --------------------------------------------------
+// 3. PROJECTS & ENGINEERING WORK
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  stack: string[];
+  impact: string;
+}
+
+const featuredProjects: Project[] = [
+
+  {
+    name: "CodeMytra",
+    stack: [
+      "Next.js",
+      "Agentic AI",
+      "Docker",
+      "PostgreSQL",
+      "Prisma",
+      "RAG Pipelines",
+      "Clerk",
+      "Inngest"
+    ],
+
+    impact:
+      "Built an AI-powered platform that generates and deploys complete startup websites in under 5 minutes while reducing prototyping effort by ~70% through automated workflows and reusable AI context pipelines."
+  },
+
+  {
+    name: "Realtime Polling & Analytics Platform",
+
+    stack: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.io",
+      "Kafka",
+      "JWT Authentication"
+    ],
+
+    impact:
+      "Developed a real-time polling system with live analytics, dynamic forms, WebSocket-based response tracking, and scalable REST APIs for public and authenticated participation."
+  }
+];
+
+// --------------------------------------------------
+// 4. COMPETITIVE ACHIEVEMENTS
+// --------------------------------------------------
+
+interface Achievement {
+  title: string;
+  category: string;
+}
+
+const trophyCabinet: Achievement[] = [
+
+  {
+    title: "4★ Coder at CodeChef",
+    category: "Competitive Programming"
+  },
+
+  {
+    title: "Top 5% Learner - NPTEL",
+    category: "Academics"
+  },
+
+  {
+    title: "2x Hackathon Winner",
+    category: "Hackathons"
+  },
+
+  {
+    title: "Amazon ML Summer School 2025",
+    category: "Machine Learning"
+  },
+
+  {
+    title: "Campus Ambassador at Perplexity & Chaicode",
+    category: "Community"
+  }
+];
+
+// --------------------------------------------------
+// 5. CERTIFICATIONS
+// --------------------------------------------------
+
+const certifications = [
+  "AWS Solution Architect Associate - June 2026",
+  "Google IT Support Professional - Jan 2026",
+  "Cloud Computing (Elite Silver) - NPTEL",
+  "Introduction to Internet of Things (Top 5%) - NPTEL"
+];
+
+// --------------------------------------------------
+// 6. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  [
+    "VIT Bhopal University",
+    "B.Tech Computer Science Engineering (CGPA: 8.1) | 2023 - 2027"
+  ],
+
+  [
+    "Khalsa Montessori Senior Secondary School",
+    "Class XII (CBSE) | 2022"
+  ],
+
+  [
+    "Nirmala Convent School",
+    "Class X (CBSE) | 2020"
+  ]
+]);
+
+export default new ProfessionalHistory();
+
+
+/**
+ * --------------------------------------------------
+ * TERMINAL OUTPUT
+ * --------------------------------------------------
+ */
+
+```bash
+$ nikhil --status
+
+> Role: Full-Stack Developer & AI Engineer
+> Focus: Agentic AI • Scalable Systems • Developer Tools
+> Status: Open to Opportunities
+> Location: India / Remote
+> Hackathons: 2x Winner
+> Loading Projects... [||||||||||] 100%
+> Ready.
